@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "crypto",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "crypto"
+	}
+}

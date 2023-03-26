@@ -1,0 +1,125 @@
+  /**********************************************
+*** GENERAL
+**********************************************/
+  
+  .container {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .dice {
+            text-align: center;
+            display: inline-block;
+            margin: 10px;
+            
+        }
+        .dices {
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        body {
+            background-color: #212c3b;
+            margin: 0;
+        }
+
+        h1 {
+            margin: 20px;
+            font-family: "Lobster", cursive;
+            text-shadow: 6px 0 #070707;
+            font-size: 6rem;
+            color: #480ecf;
+            text-align: center;
+        }
+         h2 {
+            margin: 20px;
+            font-family: "Lobster", cursive;
+            text-shadow: 6px 0 #070707;
+            font-size: 2rem;
+            color: #480ecf;
+            text-align: center;
+        }
+
+        p {
+            font-size: 2rem;
+            color: #480ecf;
+            text-shadow: 6px 0 #0a0a0a;
+            font-family: "Indie Flower", cursive;
+            text-decoration: none;
+        }
+
+        img {
+            width: 150px;
+            
+        }
+
+        .bottom {
+            padding-top: 30px;
+        }
+
+        .butn {
+            cursor: pointer;
+            width: 350px;
+            text-shadow: 4px 0 #0e0d0d;
+            background: #480ecf;
+            font-family: "Indie Flower", cursive;
+            border-radius: 7px;
+            color: #ffff;
+            font-size: 30px;
+            padding: 16px 25px 16px 25px;
+            text-decoration: none;
+        }
+
+        .butn:hover {
+            background: #e45a0a;
+            text-decoration: none;
+        }
+
+        .shake1
+        {
+            animation: animationShake1 0.5s infinite;
+        }
+        @keyframes animationShake1{
+            0%{
+                transform: rotate(8deg);
+            }
+            50%{
+                transform: rotate(-8deg);
+            }
+            100%{
+                transform: rotate(8deg);
+            }
+        }
+        .shake2
+        {
+            animation: animationShake2 0.5s infinite;
+        }
+        @keyframes animationShake2{
+            0%{
+                transform: rotate(-8deg);
+            }
+            50%{
+                transform: rotate(8deg);
+            }
+            100%{
+                transform: rotate(-8deg);
+            }
+        }
+.return {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(247, 244, 244);
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}

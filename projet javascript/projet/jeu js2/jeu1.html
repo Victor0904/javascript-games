@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeux de dés!</title>
+    <link rel="stylesheet" href="jeu1.css">
+    <script type="text/javascript" src="jeu1.js"></script>
+ 
+</head>
+
+<body>
+
+    <div class="container bottom">
+        <button type="button" class="return" >
+            <a href="index.html"> Choix des jeux </a>
+        </button>
+    </div>
+
+    <div>
+        <h1>Bonne chance !</h1>
+        <h2>nombre de partie joué :<p class="nbgame" id="nbgame">0</p> </h2>
+        <div class="dices">
+            <div class="dice">
+                <p class="Player1">Joueur 1</p>
+                <p class="score" id="score1">0</p>
+                <img class="imgPlayer" id="img1" src="dice6.png">
+            </div>
+
+            <div class="dice">
+                <p class="Player2">Joueur 2</p>
+                <p class="score" id="score2">0</p>
+                <img class="imgPlayer" id="img2" src="dice6.png">
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="container bottom">
+        <button type="button" class="butn" onClick="rollTheDice()">
+            Lancer les dés
+        </button>
+    </div>
+    <div class="container bottom">
+        <button type="button" class="butn" onClick="editNames()">
+            Changer les noms
+        </button>
+    </div>
+</body>
+
+</html>
